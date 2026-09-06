@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00100000000000000000001 /* ClipCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000001 /* ClipCalendarApp.swift */; };
+		A00100000000000000000002 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000002 /* AppState.swift */; };
+		A00100000000000000000003 /* ClipboardMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000003 /* ClipboardMonitor.swift */; };
+		A00100000000000000000004 /* ClipboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000004 /* ClipboardStore.swift */; };
+		A00100000000000000000005 /* ClipItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000005 /* ClipItem.swift */; };
+		A00100000000000000000006 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000006 /* ContentView.swift */; };
+		A00100000000000000000007 /* CalendarHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000007 /* CalendarHistoryView.swift */; };
+		A00100000000000000000008 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000008 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00200000000000000000001 /* ClipCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipCalendarApp.swift; sourceTree = "<group>"; };
+		A00200000000000000000002 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A00200000000000000000003 /* ClipboardMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardMonitor.swift; sourceTree = "<group>"; };
+		A00200000000000000000004 /* ClipboardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardStore.swift; sourceTree = "<group>"; };
+		A00200000000000000000005 /* ClipItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipItem.swift; sourceTree = "<group>"; };
+		A00200000000000000000006 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A00200000000000000000007 /* CalendarHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHistoryView.swift; sourceTree = "<group>"; };
+		A00200000000000000000008 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A00200000000000000000009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00200000000000000000010 /* Gobby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gobby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00300000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00400000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A00400000000000000000002 /* Gobby */,
+				A00400000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00400000000000000000002 /* Gobby */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000001 /* ClipCalendarApp.swift */,
+				A00200000000000000000002 /* AppState.swift */,
+				A00200000000000000000003 /* ClipboardMonitor.swift */,
+				A00200000000000000000004 /* ClipboardStore.swift */,
+				A00200000000000000000005 /* ClipItem.swift */,
+				A00200000000000000000006 /* ContentView.swift */,
+				A00200000000000000000007 /* CalendarHistoryView.swift */,
+				A00200000000000000000008 /* SettingsView.swift */,
+				A00200000000000000000009 /* Info.plist */,
+			);
+			path = Gobby;
+			sourceTree = "<group>";
+		};
+		A00400000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000010 /* Gobby.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00500000000000000000001 /* Clip Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00600000000000000000001 /* Build configuration list for PBXNativeTarget "Clip Calendar" */;
+			buildPhases = (
+				A00300000000000000000002 /* Sources */,
+				A00300000000000000000001 /* Frameworks */,
+				A00300000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clip Calendar";
+			productName = Gobby;
+			productReference = A00200000000000000000010 /* Gobby.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00700000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A00500000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A00600000000000000000002 /* Build configuration list for PBXProject "Gobby" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = A00400000000000000000001;
+			productRefGroup = A00400000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00500000000000000000001 /* Clip Calendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00300000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00300000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00100000000000000000001 /* ClipCalendarApp.swift in Sources */,
+				A00100000000000000000002 /* AppState.swift in Sources */,
+				A00100000000000000000003 /* ClipboardMonitor.swift in Sources */,
+				A00100000000000000000004 /* ClipboardStore.swift in Sources */,
+				A00100000000000000000005 /* ClipItem.swift in Sources */,
+				A00100000000000000000006 /* ContentView.swift in Sources */,
+				A00100000000000000000007 /* CalendarHistoryView.swift in Sources */,
+				A00100000000000000000008 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00800000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00800000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A00800000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Gobby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ClipCalendar;
+				PRODUCT_NAME = Gobby;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A00800000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Gobby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ClipCalendar;
+				PRODUCT_NAME = Gobby;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00600000000000000000001 /* Build configuration list for PBXNativeTarget "Clip Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00800000000000000000003 /* Debug */,
+				A00800000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00600000000000000000002 /* Build configuration list for PBXProject "Gobby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00800000000000000000001 /* Debug */,
+				A00800000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00700000000000000000001 /* Project object */;
+}
